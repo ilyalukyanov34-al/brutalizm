@@ -9,6 +9,12 @@
     font-weight: 400;
 }
 
+:root{
+    --white: #F3F3F3;
+    --ff: "Fustat", sans-serif;
+    --gray: #B5B5B5;
+}
+
 .container{
     max-width: 1140px;
     width: 100%;
