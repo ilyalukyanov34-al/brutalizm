@@ -131,18 +131,17 @@
   }
 }
 
-@media screen and (max-width: 567px){
-  .banner__content{
+@media screen and (max-width: 567px) {
+  .banner__content {
     align-items: center;
     width: 100%;
   }
-  .banner__title{
+  .banner__title {
     text-align: center;
   }
-.banner__desc{
-  flex-direction: column;
-  align-items: center;
-  gap: 40px;
-
-}
+  .banner__desc {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
 }
