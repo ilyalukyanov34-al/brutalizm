@@ -97,6 +97,8 @@
   overflow: hidden;
 }
 
+
+
 @media screen and (max-width: 992px) {
   .header__wrap {
     flex-wrap: wrap;
@@ -145,3 +147,4 @@
     gap: 40px;
   }
 }
+
