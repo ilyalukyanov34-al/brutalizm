@@ -1,0 +1,25 @@
+.products {
+}
+
+.products__grid {
+}
+
+.header__products-grid{
+    display: flex;
+    flex-direction: column;
+}
+.header__products-grid_title {
+  font-family: (--ff);
+  font-weight: 300;
+  font-size: clamp(0.938rem, 0.816rem + 0.61vw, 1.25rem);
+  line-height: 90%;
+  letter-spacing: 0%;
+}
+.header__products-grid_text {
+  font-family: var(--ff);
+  font-weight: 500;
+  font-style: Medium;
+  font-size: clamp(2.188rem, 1.87rem + 1.59vw, 3rem);
+  line-height: 90%;
+  letter-spacing: 0%;
+}
