@@ -1,20 +1,27 @@
 .products {
+  display: flex;
+  justify-content: space-between;
 }
 
 .products__grid {
+  max-width: 1110px;
 }
 
-.header__products-grid{
-    display: flex;
-    flex-direction: column;
+.header__products-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
+
 .header__products-grid_title {
   font-family: (--ff);
   font-weight: 300;
   font-size: clamp(0.938rem, 0.816rem + 0.61vw, 1.25rem);
   line-height: 90%;
   letter-spacing: 0%;
+  margin-bottom: 20px;
 }
+
 .header__products-grid_text {
   font-family: var(--ff);
   font-weight: 500;
@@ -22,4 +29,212 @@
   font-size: clamp(2.188rem, 1.87rem + 1.59vw, 3rem);
   line-height: 90%;
   letter-spacing: 0%;
+  margin-bottom: 80px;
+}
+
+.products__item {
+  display: grid;
+  grid-template-columns: 477px 1fr;
+  column-gap: 40px;
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.products__card {
+  max-width: 477px;
+  height: 275px;
+}
+
+.products__card-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.products__desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.products__desc-text {
+  margin: 0;
+  font-family: var(--ff);
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 100%;
+  color: var(--gray);
+}
+
+.products__desc-title {
+  font-family: var(--ff);
+  font-weight: 400;
+  font-size: clamp(1.25rem, 1.1rem + 0.5vw, 1.5rem);
+  line-height: 100%;
+  text-transform: uppercase;
+  color: var(--white);
+  margin-bottom: 40px
+}
+
+.products__learn {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  color: var(--white);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.products__learn-text {
+  margin: 0;
+  font-family: var(--ff);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+}
+
+.products__learn-img {
+  display: block;
+  width: 96px;
+  height: 96px;
+  transition: transform 0.3s;
+}
+
+.products__learn:hover .products__learn-img {
+  transform: translateX(6px);
+}
+
+/*  */
+
+
+
+
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 140px;
+}
+
+.contacts__img {
+  max-width: 730px;
+  height: 583px;
+}
+
+.contacts__img-big {
+  max-width: 100%;
+  height: 100%;
+}
+
+.contacts__right {
+  display: flex;
+  flex-direction: column;
+  margin-left: 75px;
+}
+
+.contacts__right-desc {
+}
+
+.our {
+  margin-bottom: 20px;
+  font-family: var(--ff);
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 90%;
+  color: var(--white);
+}
+
+.contacts_mb {
+  margin-bottom: 40px;
+  font-family: var(--ff);
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 90%;
+  color: var(--white);
+}
+
+.call {
+  margin-bottom: 20px;
+  font-family: var(--ff);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 90%;
+  letter-spacing: 0%;
+  color: var(--white);
+}
+
+.number {
+  margin-bottom: 80px;
+  font-family: var(--ff);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 90%;
+  letter-spacing: 0%;
+  color: var(--gray);
+}
+
+.agency {
+  margin-bottom: 20px;
+  margin-bottom: 20px;
+  font-family: var(--ff);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 90%;
+  letter-spacing: 0%;
+  color: var(--white);
+}
+
+.state {
+  margin-bottom: 80px;
+  margin-bottom: 80px;
+  font-family: var(--ff);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 90%;
+  letter-spacing: 0%;
+  color: var(--gray);
+}
+
+.contact {
+  margin-bottom: 20px;
+  margin-bottom: 20px;
+  margin-bottom: 20px;
+  font-family: var(--ff);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 90%;
+  letter-spacing: 0%;
+  color: var(--white);
+}
+
+.disign {
+  margin-bottom: 80px;
+  margin-bottom: 80px;
+  margin-bottom: 80px;
+  font-family: var(--ff);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 90%;
+  letter-spacing: 0%;
+  color: var(--gray);
+}
+
+.follow__us {
+  margin-bottom: 20px;
+  margin-bottom: 20px;
+  margin-bottom: 20px;
+  margin-bottom: 20px;
+  font-family: var(--ff);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 90%;
+  letter-spacing: 0%;
+  color: var(--white);
+}
+
+.follow__us-icons {
+  gap: 15px;
 }

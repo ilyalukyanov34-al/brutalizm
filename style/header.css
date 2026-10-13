@@ -28,6 +28,7 @@
   letter-spacing: 0%;
   text-transform: uppercase;
   color: var(--white);
+  text-decoration: none;
 }
 
 .header__nav-list {
@@ -45,6 +46,7 @@
   color: var(--white);
   text-transform: uppercase;
   transition: 0, 3s;
+  text-decoration: none;
 }
 
 .header__nav-list_item-link:hover {
@@ -74,6 +76,7 @@
   line-height: 90%;
   text-transform: uppercase;
   color: var(--white);
+  margin-bottom: 20px;
 }
 
 .banner__desc {
@@ -95,9 +98,8 @@
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
   overflow: hidden;
+  margin-right: 20px;
 }
-
-
 
 @media screen and (max-width: 992px) {
   .header__wrap {
@@ -147,4 +149,3 @@
     gap: 40px;
   }
 }
-
