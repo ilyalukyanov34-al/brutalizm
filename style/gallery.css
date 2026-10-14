@@ -35,14 +35,15 @@
   max-width: 756px;
   font-family: var(--ff);
   font-weight: 500;
-  font-size: 32px;
-  line-height: 90%;
+  font-size: clamp(1.25rem, 1.463vw + 0.957rem, 2rem);
+  line-height: clamp(1.625rem, 0.732vw + 1.479rem, 2rem);
   color: var(--white);
 }
 
-.mid .gallery__card-desc {
+.gallery__card-desc {
   max-width: 500px;
-  word-break: keep-all;
+  font-size: clamp(0.75rem, 0.488vw + 0.652rem, 1rem);
+  line-height: clamp(0.975rem, 0.049vw + 0.965rem, 1rem);
 }
 
 .gallery__card .gallery__card-img {
